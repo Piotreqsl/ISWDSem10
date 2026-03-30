@@ -9,6 +9,9 @@ Zbyt późne lub błędne rozpoznanie choroby rośliny uprawnej (np. pomidora, z
 Źródłem danych będą cyfrowe zdjęcia liści roślin (w formacie JPG lub PNG) bezpośrednio wgrywane do systemu przez użytkownika w czasie rzeczywistym.
 
 **Metoda sztucznej inteligencji i jej zadanie:**
-Aby system był nowoczesny i wysoce skuteczny, jako metoda sztucznej inteligencji (w szczególności z dziedziny Głębokiego Uczenia - Deep Learning) zastosowana zostanie **konwolucyjna sieć neuronowa (CNN) / Vision Transformer**.
+Aby system był nowoczesny i wysoce skuteczny, jako metoda sztucznej inteligencji zastosowana zostanie **konwolucyjna sieć neuronowa (CNN) / Vision Transformer**.
 
 Zadaniem modelu AI będzie klasyfikacja dostarczonego obrazu, czyli rozpoznanie ze zdjęcia gatunku rośliny i konkretnej jednostki chorobowej z przypisanym poziomem prawdopodobieństwa (ang. *confidence score*). Wynik ten będzie następnie przekazywany do algorytmu wnioskującego.
+
+przykładowy zbiór danych.
+https://www.kaggle.com/datasets/emmarex/plantdisease

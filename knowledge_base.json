@@ -1,0 +1,32 @@
+{
+    "Apple Scab": {
+        "description": "Zarodniki grzyba powodujące parcha jabłoni. Zaraża liście i owoce na przedwiośniu.",
+        "severity": "Wysoka",
+        "action": "Zastosować oprysk fungicydem preparatem miedziowym wczesną wiosną. Usuwać i niszczyć opadłe liście chorobowe.",
+        "prevention": "Odmiany odporne na parcha, dbać o prześwietlanie koron drzew."
+    },
+    "Apple with Black Rot": {
+        "description": "Czarna zgnilizna jabłoni. Widać brunatne plamki rosnące bardzo szybko w cieplejszych warunkach.",
+        "severity": "Wysoka",
+        "action": "Pilne usunięcie zarażonych części. Oprysk fungicydami. Oczyść z ran porażonych pędów.",
+        "prevention": "Wiosenne czyszczenie starych i przegniłych części by zapobiec zimowaniu grzyba."
+    },
+    "Tomato Early Blight": {
+        "description": "Alternarioza pomidora. Charakterystyczne ciemne i naprzemienne kręgi na liściach, zżółknięta obwódka plam.',",
+        "severity": "Średnia",
+        "action": "Zastosować środek grzybobójczy (np. Miedzian 50 WP) według wskazań na etykiecie 3g na 1l wody.",
+        "prevention": "Zwiększyć cyrkulację powietrza, unikać polewania liści wodą podczas podlewania z góry."
+    },
+    "Tomato Late Blight": {
+        "description": "Zaraza ziemniaka na pomidorze! Błyskawicznie postępująca choroba rzutująca na owoce.",
+        "severity": "Krytyczna",
+        "action": "Natychmiast zastosować silne środki ochrony roślin (np. Signum, Amistar 250 SC). Jeżeli krzak jest silnie porażony, bezzwłocznie wyrwać by odciążyć resztę uprawy.",
+        "prevention": "Zadaszenie nad pomidorami (chroni przed ulewami jesienią), regularne używanie środków biologicznych (Czarne Złoto)."
+    },
+    "Healthy": {
+        "description": "Nie wykryto chorób zagrażających.",
+        "severity": "Niska",
+        "action": "Brak zaleceń chemicznych. Utrzymuj prawidłową dawkę nawozów NPK.",
+        "prevention": "Profilaktyczne odchwaszczanie."
+    }
+}

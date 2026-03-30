@@ -1,0 +1,6 @@
+- [x] Instalacja wymaganych pakietów Python
+- [x] Stworzenie bazy wiedzy (`knowledge_base.json`)
+- [x] Testy diagnostyczne i Fallback
+- [x] Skrypt pokazowy Fine-Tuning
+- [ ] Stworzenie skryptu pobierania Bielika 11B GGUF do foldera (`setup_bielik.py`)
+- [ ] Integracja modelu LLM w `app.py` przy użyciu `llama-cpp-python` i mechanika wątków (Multi-threading)
