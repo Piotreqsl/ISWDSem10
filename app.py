@@ -208,24 +208,24 @@ class PlantDiseaseApp(ctk.CTk):
             if conf_fb > confidence:
                 confidence = conf_fb
                 used_fallback = True
-                self.set_status(f"Sukces Fallbacku! Zastąpiono wynik (Nowy wynik: {confidence:.1f}%)", color="lightgreen")
+                self.set_status(f"wynik: {confidence:.1f}%)", color="lightgreen")
             else:
-                self.set_status("Fallback nie poprawił oceny pewności.", color="lightcoral")
+                self.set_status("brak poprawy.", color="lightcoral")
 
         # Aktualizacja Kafelka AI
         if used_fallback:
-            self.pred_label.configure(text=f"Kategoria (FALLBACK!): {predicted_label}")
+            self.pred_label.configure(text=f"Kategoria: {predicted_label}")
         else:
             self.pred_label.configure(text=f"Kategoria: {predicted_label}")
             if not used_fallback and confidence >= 80:
-                self.set_status("Utrzymano pewny wynik pierwszego modelu.", color="lightgreen")
+                self.set_status("Otrzymano pewny wynik.", color="lightgreen")
             
         self.conf_label.configure(text=f"Pewność: {confidence:.1f}%")
         self.progress_bar.set(confidence / 100.0)
         
         if confidence >= 85:
             self.progress_bar.configure(progress_color="green")
-        elif confidence >= 60:
+        elif confidence >= 59:
             self.progress_bar.configure(progress_color="orange")
         else:
             self.progress_bar.configure(progress_color="red")
@@ -251,9 +251,9 @@ class PlantDiseaseApp(ctk.CTk):
                     matched_kb = kb_data
                     break
                     
-        if confidence < 60:
+        if confidence < 59:
             err_txt = (
-                "[PEWNOŚĆ ZBYT NISKA < 60%]"
+                "[PEWNOŚĆ ZBYT NISKA < 59%]"
             )
             self.write_recom(err_txt)
             return
